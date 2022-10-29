@@ -1,5 +1,5 @@
 const table = document.createElement("table");
-let lineNumber=1;
+let lineNumber=0;
 
 function addTable() {
     if (document.getElementById('table') !=null){
@@ -8,22 +8,26 @@ function addTable() {
     else {
 
         table.innerHTML = "<table>\n" +
-            "    <tr>\n" +
-            "        <th>\n" +
-            "           Нулевая строка \n" +
-            "        </th>\n" +
-            "    </tr>\n" +
-            "</table>";
+            "<tr>\n" +
+            "      <th>\n" +
+            lineNumber+
+            "      </td>\n" +
+            "     </td>\n" +
+            "      <td>\n" +
+            "      </td>\n" +
+            "</tr>"
+            "              </table>";
 
         table.setAttribute('id','table')
         document.body.append(table);
+        lineNumber++;
     }
 }
 
 function addLine(){
     let tab = table.insertRow();
-    tab.insertCell();
-    tab.append(lineNumber);
+    tab.insertCell().append(lineNumber);
+    tab.insertCell().append("Хочу 5");
     lineNumber++;
 }
 function deleteLine(){
