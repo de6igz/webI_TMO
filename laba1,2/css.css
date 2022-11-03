@@ -163,33 +163,97 @@ button{
 }
 /*В хрмое через консоль выбрал iphone 12 pro, разрешение для него сделал*/
 @media (min-width: 390px) and (max-height: 844px) {
+
     .header{
-        width: 400px;
+        width: 200px;
         position: relative;
-        bottom: 800px;
+        bottom: 400px;
+        left: 200px;
+    }
+    .head-items{
+        height: 50px;
+        width: 500px;
     }
     .first-pic{
         position: relative;
-        top: 200px;
-        width: 800px;
+        top: 400px;
+        width: 400px;
+        left: 500px;
     }
     .intro-text{
-        width: 600px;
+        width: 200px;
+        position: relative;
+        bottom: 400px;
+        left: 100px;
     }
     .advantages{
         position: relative;
         top: 2px;
     }
-    .on-sale{
+    .second-row{
         position: relative;
-        top: 100px;
+        top: 300px;
+        right: 830px;
+        margin-bottom: 500px;
+    }
+    .on-sale p{
+        position: relative;
+        left: 400px;
+    }
+    .line p{
+        width: 100px;
+    }
+    .sale-second-row{
+        margin-bottom: 500px;
+        position: relative;
+        top:500px;
+        right: 900px;
+
+    }
+    .last-block .right-pic{
+        position: unset;
+        margin-bottom: 300px;
+    }
+
+    .last-block .left-pic{
+        position: relative;
+        bottom: 200px;
+        left: 10px;
     }
     .last-block{
         width: 900px;
     }
-    .last-block .left-pic{
+    .last-pic{
+        width: 1200px;
+    }
+    .footer .third-column h2{
         position: relative;
-        bottom: 727px;
-        left: 10px;
+        top: 300px;
+        right: 800px;
+
+    }
+    .footer .third-column p{
+        position: relative;
+        top: 300px;
+        right: 800px;
+
+    }
+    .footer .fourth-column h2{
+        position: relative;
+        top: 300px;
+        right: 600px;
+
+    }
+    .footer .fourth-column input{
+        position: relative;
+        top: 300px;
+        right: 600px;
+
+    }
+    .footer .fourth-column button{
+        position: relative;
+        top: 300px;
+        right: 600px;
+
     }
 }
