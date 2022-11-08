@@ -4,6 +4,7 @@
 }
 body {
     padding: 20px;
+    overflow-x: hidden;
 }
 .first-pic{
 }
