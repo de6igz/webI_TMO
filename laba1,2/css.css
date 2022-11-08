@@ -168,47 +168,72 @@ button{
         width: 200px;
         position: relative;
         bottom: 400px;
-        left: 200px;
+        left: 100px;
     }
     .head-items{
-        height: 50px;
-        width: 500px;
+        height: 15px;
+        width: 100px;
     }
     .first-pic{
         position: relative;
-        top: 400px;
+        top: 100px;
         width: 400px;
         left: 500px;
     }
     .intro-text{
-        width: 200px;
+        width: 400px;
         position: relative;
         bottom: 400px;
         left: 100px;
     }
-    .advantages{
-        position: relative;
-        top: 2px;
+    .intro-text-big{
+        font-size: 40px;
     }
-    .second-row{
+    .advantages {
+        display: none;
+    }
+    .on-sale{
         position: relative;
-        top: 300px;
-        right: 830px;
-        margin-bottom: 500px;
+        bottom: 300px;
+    }
+    #featured-plants{
+        font-size: 20px;
     }
     .on-sale p{
         position: relative;
         left: 400px;
     }
+    .on-sale img{
+        height: 150px;
+        position: relative;
+        left: 100px;
+        top: 180px;
+    }
     .line p{
         width: 100px;
     }
-    .sale-second-row{
-        margin-bottom: 500px;
-        position: relative;
-        top:500px;
-        right: 900px;
 
+    .last-block{
+        position: relative;
+        bottom: 1000px;
+    }
+    .last-block-big{
+        font-size: 30px;
+    }
+    .last-block-big br{
+        display: none;
+    }
+    .last-block-small br{
+        display: none;
+    }
+    .last-block-small{
+        font-size: 15px;
+    }
+     img.left-pic {
+        height: 200px;
+    }
+    img.right-pic {
+        height: 200px;
     }
     .last-block .right-pic{
         position: unset;
@@ -217,14 +242,22 @@ button{
 
     .last-block .left-pic{
         position: relative;
-        bottom: 200px;
-        left: 10px;
+        bottom: 300px;
+        left: 100px;
     }
     .last-block{
+        margin-left: 100px;
         width: 900px;
     }
     .last-pic{
-        width: 1200px;
+        position: relative;
+        left: 90px;
+        bottom: 150px;
+        width: 800px;
+    }
+    .footer{
+        position: relative;
+        right: 100px;
     }
     .footer .third-column h2{
         position: relative;
