@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    
+
+
+
+    <product><id>1</id><name>Spider man ps4</name><price>60</price><description>Game on PS4</description></product><product><id>2</id><name>JBL charge 4</name><price>100</price><description>Колонка</description></product><product><id>3</id><name>PS5</name><price>400</price><description>Игровая приставка</description></product></products>
